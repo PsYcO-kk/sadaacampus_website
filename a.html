@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>title</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<style type="text/css">
+
+html,body
+{
+	height: 100%;
+}
+.starting{
+	padding: 0px;
+	width: 90%;
+	margin-left: 10%;
+	height: 100%;
+	display: flex;
+	vertical-align: middle;
+}
+ .row{
+ 	height: 100%;
+ 	width: 100%
+ }
+#header{
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+}
+
+.text_class
+{
+	padding-top: 18%;
+	height: 100%;
+    text-align: center;
+}
+.image_class
+{
+	background-image: url("image.jpg");
+	background-size: cover;
+	border-radius: 5%;
+
+	height: 100%;
+}
+.heading {
+	font-size: 2.9rem;
+    line-height: 1.1;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #2d333a;
+    font-family: Slack-Lato,sans-serif;
+}
+.slides_move{
+  cursor: pointer;
+  position: absolute; 
+  color:#2d333a;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+
+    }
+   .prev{
+   	position: absolute;
+   	bottom: 15.5em;
+
+    
+    
+   }
+   .next{
+   	position: absolute;
+   	bottom: 8em;
+
+  
+   }
+   
+    .button_slides{
+    	position:absolute;
+    	   
+    	
+     }
+     .buttons
+     {
+     	margin-left: 5%;
+     	
+     }
+    #adjust{
+    	height: 100%;
+    }
+    .parts
+    {
+    	height: 100%;
+    }
+
+    #image1{
+    	height: 20%;
+    	width: 20%;
+    	border-radius: 20%;
+    }
+</style>
+<body>
+	<div id="adjust">
+<header id="header">
+<nav class="navbar-dark navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="a.html">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+     
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
+
+<div class="parts" id="part1" >
+	
+	<div class="container starting">
+		<div class="row">
+			<div class="col-md-6 text_class">
+          
+		<div class="content-container">
+			<div class="jumbotron">
+				<img src="image1.jpg" id="image1">
+			<h2 class="heading" >
+										Saddacampus the food Delivery App 1 		
+			</h2>
+			<p class="tabable" >
+
+										<a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Log In</a>
+			</p>
+			<div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+    
+      <!-- Modal content-->
+           <div class="modal-content">
+            <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title">Log_In</h4>
+           </div>
+          <div class="modal-body">
+            <div>
+            	<form action="#" method="POST">
+            		<input type="text" name="number">
+            	</form>
+            </div>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          </div>
+      
+          </div>
+          </div>
+			
+
+	
+		
+
+		</div>
+		</div>
+	  </div>
+			<div class="col-md-6 image_class">
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="parts" id="part2" >
+	
+	<div class="container starting">
+		<div class="row">
+			<div class="col-md-6 text_class">
+          
+		<div class="content-container">
+			<div class="jumbotron">
+				<img src="image1.jpg" id="image1">
+			<h2 class="heading" >
+										Saddacampus the food Delivery App 2 		
+			</h2>
+			<p class="tabable" >
+
+										<a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Log In</a>
+			</p>
+
+				<div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+    
+      <!-- Modal content-->
+           <div class="modal-content">
+            <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title">Log_In</h4>
+           </div>
+          <div class="modal-body">
+            <div>
+            	<form action="#" method="POST">
+            		<input type="text" name="number">
+            	</form>
+            </div>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          </div>
+      
+          </div>
+          </div>
+			
+
+	
+		
+
+		</div>
+		</div>
+	  </div>
+			<div class="col-md-6 image_class">
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="parts" id="part3" >
+	
+	<div class="container starting">
+		<div class="row">
+			<div class="col-md-6 text_class">
+          
+		<div class="content-container">
+			<div class="jumbotron">
+				<img src="image1.jpg" id="image1">
+			<h2 class="heading" >
+										Saddacampus the food Delivery App 3 		
+			</h2>
+			<p class="tabable" >
+
+										<a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Log In</a>
+			</p>
+
+				<div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+    
+      <!-- Modal content-->
+           <div class="modal-content">
+            <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title">Log_In</h4>
+           </div>
+          <div class="modal-body">
+            <div>
+            	<form action="#" method="POST">
+            		<input type="text" name="number">
+            	</form>
+            </div>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          </div>
+      
+          </div>
+          </div>
+			
+
+	
+		
+
+		</div>
+		</div>
+	  </div>
+			<div class="col-md-6 image_class">
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="buttons">
+  
+
+    <div class="button_slides">
+      <div class="buttons slides_move">
+      	<span class="prev" onclick="plusSlides(-1)">&and;</span>
+      </div>
+      <div class="buttons slides_move">
+      	<span class="next" onclick="plusSlides(1)">&or;</span>
+      </div>
+   </div>
+ 
+</div>
+</div>
+</body>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("parts");
+ 
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  
+  slides[slideIndex-1].style.display = "block"; 
+  
+}
+
+
+</script>
+
+</html>
