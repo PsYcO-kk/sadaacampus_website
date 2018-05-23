@@ -100,6 +100,18 @@ html,body
     	border-radius: 20%;
     }
 </style>
+<script>
+	document.onkeydown = function(evt){
+		if(evt.which==38){
+			plusSlides(-1);
+		}
+		else if(evt.which==40){
+			plusSlides(+1);
+		}
+		evt.preventDefault();
+	};
+	
+</script>
 <body>
 	<div id="adjust">
 <header id="header">
